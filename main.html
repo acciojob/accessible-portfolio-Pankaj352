@@ -4,9 +4,45 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <title>Accessible Portfolio</title>
 </head>
 
 <body>
+	 <!-- Navigation Section -->
+  <nav role="navigation" aria-label="Main navigation">
+    <ul role="list" class="nav-list">
+      <li role="listitem"><a href="#about">About Me</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+      <li role="listitem"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Heading Section -->
+  <header>
+    <h1 role="heading" aria-level="1">Welcome to My Portfolio</h1>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <img src="https://images.unsplash.com/photo-1566753323558-f4e0952af115?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D" alt="harry" role="img">
+    <p>Hello! I'm Harry, a passionate developer specializing in creating accessible and user-friendly web applications.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 role="heading" aria-level="2">My Projects</h2>
+    <ul role="list">
+      <li role="listitem">Project 1: Accessible Web Design</li>
+      <li role="listitem">Project 2: E-commerce Platform</li>
+      <li role="listitem">Project 3: Blogging Application</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 role="heading" aria-level="2">Get in Touch</h2>
+    <p>Feel free to reach out via email at <a href="mailto:yourname@example.com">yourname@example.com</a>.</p>
+  </section>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>

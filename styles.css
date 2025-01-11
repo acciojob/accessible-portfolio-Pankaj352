@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+section {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+ul {
+  list-style-type: square;
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
